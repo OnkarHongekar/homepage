@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.pagify {
+    max-width: 1024px;
+    margin: auto;
+    padding: 0 16px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header, .hero-section {
+    background-color: #1f2937;
+}
+
+.hero-section, .cards-section, .quote-wrapper, .cta-section {
+    flex-grow: 1;
+}
+
+.header ul {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+}
+
+.header-logo {
+    margin-right: auto;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-link, .hero-desc {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-desc {
+    margin-bottom: 12px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-section > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px 16px;
+    gap: 36px;
+}
+
+.hero-section img {
+    flex-basis: 512px;
+}
+
+.hero-content {
+    flex-basis: 512px;
+}
+
+.sign-up-btn {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 0;
+    padding: 8px 16px;
+    border-radius: 8px;
+}

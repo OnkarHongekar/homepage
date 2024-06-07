@@ -3,24 +3,26 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>The Odin's Homepage</title>
+        <link href="./index.css" rel="stylesheet">
     </head>
     <body class="body">
         <header class="header">
-            <ul>
+            <ul class="pagify">
                 <li class="header-logo"><a>Header logo</a></li>
-                <li><a>Etiam facilisis</a></li>
-                <li><a>Mauris vehicula</a></li>
-                <li><a>lorem</a></li>
+                <li><a class="header-link">Etiam facilisis</a></li>
+                <li><a class="header-link">Mauris vehicula</a></li>
+                <li><a class="header-link">lorem</a></li>
             </ul>
         </header>
-        <section clas="hero-wrapper">
-            <div>
-                <h1>This website is awesome</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut semper nulla. Sed in purus bibendum, lobortis nisl eget, eleifend erat. Cras pharetra et ligula nec pharetra.</p>
-                <button>Sign up</button>
-            </div>
-            <div>
+        <section class="hero-section">
+            <div class="pagify">
+                <div class="hero-content">
+                    <h1 class="hero-title">This website is awesome</h1>
+                    <p class="hero-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut semper nulla. Sed in purus bibendum, lobortis nisl eget, eleifend erat. Cras pharetra et ligula nec pharetra.</p>
+                    <button class="sign-up-btn">Sign up</button>
+                </div>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKsPyG6RCfqSAAtivnG-X9gffuzBjM-BtXNAEXaXnWhw&s" role="presentation" target="_blank" rel="noopener noreferrer">
             </div>
         </section>
@@ -49,7 +51,7 @@
                 <p>Nulla facilisi. Sed nec consequat eros!</p>
                 <p>Morbi porta auctor neque, eu bibendum mi ultrices eget. Pellentesque et velit at justo ultricies sodales ut eget tortor.</p>
             </div>
-            <button>Sign up</button>
+            <button class="sign-up-btn">Sign up</button>
         </section>
         <footer class="footer">
             <p>copyright! The Odin Project 2023</p>
